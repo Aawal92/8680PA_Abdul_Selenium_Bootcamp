@@ -9,4 +9,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://expedia.com"/>
 
+    <test name="BAT">
+        <classes>
+            <class name="test_feedback.TestFeedBack"></class>
+            <class name="test_jobs.TestJobs"></class>
+            <class name="test_flight.TestFlight"></class>
+            <class name="test_authentication.TestLogIn"/>
+        </classes>
+    </test>
+
 </suite>

@@ -8,5 +8,10 @@
 
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://ebay.com"/>
+    <test name="BAT">
+        <classes>
+            <class name="test_search.TestSearch"></class>
+        </classes>
+    </test>
 
 </suite>

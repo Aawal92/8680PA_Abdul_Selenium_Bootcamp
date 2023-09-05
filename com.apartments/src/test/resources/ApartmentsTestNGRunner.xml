@@ -11,13 +11,7 @@
 
     <test name="BAT">
         <classes>
-
-            <!--            //Dalal -->
             <class name="test_authentication.TestSignin"/>
-            <!--            <class name="test_createnewcontact.TestCreateNewContact"/>-->
-            <!--            <class name="test_searchcontacts.TestSearchContact"/>-->
-            <!--            <class name="test_createtasks.TestCreatesTask"/>-->
-            <!--            <class name="testwithdatabase.TestNewCompany"/>-->
         </classes>
     </test>
 

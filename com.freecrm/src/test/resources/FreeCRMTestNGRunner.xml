@@ -11,9 +11,7 @@
 
     <test name="BAT">
         <classes>
-
             <class name="test_authentication.TestLogin"/>
-
         </classes>
     </test>
 
