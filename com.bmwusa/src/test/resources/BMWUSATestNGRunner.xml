@@ -8,5 +8,11 @@
 
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://bmwusa.com"/>
+    <test name="BAT">
+        <classes>
+<!--            <class name="test_authentication.TestAuthentication"/>-->
+            <class name="test_shoppingCart.TestShoppingCart"></class>
+        </classes>
+    </test>
 
 </suite>
